@@ -93,6 +93,7 @@ e.g.
 
 - 선별한 5개 모델을 활용하여 앙상블을 시도해 보았고, 선택 모델과 앙상블 조합에 따라 hyperparameter는 유동적으로 조정
 <img width="492" alt="image" src="https://github.com/user-attachments/assets/75799353-7ebc-43c8-bd66-3859c75bb1cf" />
+
 - 앙상블 적용 기법은 각 클래스별 validation 데이터에 점수가 더 높은 모델에 가중치를 주는 방법 시도
 <img width="412" alt="image" src="https://github.com/user-attachments/assets/cf5cf61b-166c-468b-9cc3-b9b72e97f80d" />
 
