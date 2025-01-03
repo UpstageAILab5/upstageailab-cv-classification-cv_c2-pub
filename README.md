@@ -88,7 +88,8 @@ e.g.
 
 - 여러 이미지 및 OCR 모델에 대한 테스트를 진행하였고, 학습 효율성과 F1 macro 점수 결과에 따라 모델을 최종 선별함
 <img width="639" alt="image" src="https://github.com/user-attachments/assets/98524998-a403-42a7-b6a6-eb5f78b15f51" />
-- OCR의 경우 텍스트 영역 검추과 한글 텍스트 추출을 위하여 각 모델의 성능이 다른 Easy OCR과 paddleOCR 두개 모두를 사용
+
+- OCR의 경우 텍스트 영역 검출과 한글 텍스트 추출을 위하여 각 모델의 성능이 다른 Easy OCR과 paddleOCR 두개 모두를 사용
 <img width="323" alt="image" src="https://github.com/user-attachments/assets/85afa777-2db2-4009-b32c-780697182765" />
 
 - 선별한 5개 모델을 활용하여 앙상블을 시도해 보았고, 선택 모델과 앙상블 조합에 따라 hyperparameter는 유동적으로 조정
